@@ -78,7 +78,7 @@ namespace ShopBridge.Repo
                     return "Data Added succesfully ";
                 }
                 else
-                    return "Product code already exits";
+                    return "Product Id already exits";
             }
             catch (Exception ex)
             {
