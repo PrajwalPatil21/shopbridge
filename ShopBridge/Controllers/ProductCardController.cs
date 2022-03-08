@@ -77,8 +77,6 @@ namespace ShopBridge.Controllers
         [Route("Delete")]
         public async Task<IActionResult> DeleteProduct(string ProductId)
         {
-            //string filter = JsonConvert.SerializeObject(request);
-            //ProductDetails Pdata = JsonConvert.DeserializeObject<ProductDetails>(filter);
             var result = _productRepo.DeleteProduct(ProductId);
             if (result == null)
             {

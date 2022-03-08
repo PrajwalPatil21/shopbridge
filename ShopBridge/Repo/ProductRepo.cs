@@ -137,15 +137,6 @@ namespace ShopBridge.Repo
                 throw ex;
             }
 
-            //ProductDetails result = new ProductDetails();
-            //List<ProductDetails> dataList = new List<ProductDetails>();
-            //dynamic users = _context.studentdata;
-            //    foreach (dynamic record in users)
-            //    {
-            //        dataList.Add(MapperD(record));
-            //    }
-            //return request;
-            //}
         }
 
     }
